@@ -1,0 +1,13 @@
+diff --git a/src/sail-codecs/video/CMakeLists.txt b/src/sail-codecs/video/CMakeLists.txt
+index 7ac3fc6..ca1d12f 100644
+--- a/src/sail-codecs/video/CMakeLists.txt
++++ b/src/sail-codecs/video/CMakeLists.txt
+@@ -27,7 +27,7 @@ include(SelectLibraryConfigurations)
+ 
+ set(COMPRESSION_PREFIXES       ZLIB      BZIP2            LZMA)
+ set(COMPRESSION_NAMES_RELEASE  "z zlib"  "bz2 bzip2"      "lzma")
+-set(COMPRESSION_NAMES_DEBUG    "z zlibd" "bz2d bz2 bzip2" "lzmad lzma")
++set(COMPRESSION_NAMES_DEBUG    "z zd zlibd" "bz2d bz2 bzip2" "lzmad lzma")
+ 
+ list(LENGTH COMPRESSION_PREFIXES length)
+ math(EXPR COMPRESSION_PREFIXES_LAST_INDEX "${length} - 1")
