@@ -1,0 +1,13 @@
+diff --git a/src/sail-common/export.h b/src/sail-common/export.h
+index ddc79cd..6665d99 100644
+--- a/src/sail-common/export.h
++++ b/src/sail-common/export.h
+@@ -25,6 +25,8 @@
+ 
+ #pragma once
+ 
++#include <sail-common/config.h>
++
+ #if defined _WIN32 || defined __CYGWIN__
+ #ifdef SAIL_STATIC
+ #define SAIL_IMPORT

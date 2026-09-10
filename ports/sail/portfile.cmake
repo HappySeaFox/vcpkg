@@ -8,6 +8,7 @@ vcpkg_from_github(
         fix-always-nanosvg.diff
         fix-heif.patch
         fix-include-directory.patch
+        fix-static-consumer-export.patch
         fix-video-zlib-and-linking.patch
 )
 
